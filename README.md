@@ -1,8 +1,8 @@
-# CLIProxyAPI Business Edition
+# ZeroFrameTech Business Edition
 
 English | [中文](README_CN.md)
 
-This is the Business version of [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI), it's designed for enterprise use.
+This is the Business edition of ZeroFrameTech, designed for enterprise use.
 
 ## Contributing
 

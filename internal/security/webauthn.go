@@ -13,11 +13,11 @@ import (
 // Default WebAuthn relying party configuration.
 const (
 	// webAuthnRPID is the default relying party ID.
-	webAuthnRPID = "router-for.me"
+	webAuthnRPID = "localhost"
 	// webAuthnRPName is the default relying party display name.
-	webAuthnRPName = "CLIProxyAPI Admin"
+	webAuthnRPName = "ZeroFrameTech Admin"
 	// webAuthnOrigin is the default WebAuthn origin.
-	webAuthnOrigin = "https://router-for.me"
+	webAuthnOrigin = "http://localhost"
 )
 
 // NewWebAuthn builds a WebAuthn configuration using DB-backed overrides.
