@@ -28,8 +28,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: z069frame
+          password: ${{ secrets.GHCR_TOKEN }}
       - name: Generate Build Metadata
         run: |
           echo VERSION=`git describe --tags --always --dirty` >> $GITHUB_ENV
@@ -65,8 +65,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: z069frame
+          password: ${{ secrets.GHCR_TOKEN }}
       - name: Generate Build Metadata
         run: |
           echo VERSION=`git describe --tags --always --dirty` >> $GITHUB_ENV
@@ -103,8 +103,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: z069frame
+          password: ${{ secrets.GHCR_TOKEN }}
       - name: Generate Build Metadata
         run: |
           echo VERSION=`git describe --tags --always --dirty` >> $GITHUB_ENV
