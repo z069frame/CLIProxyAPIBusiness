@@ -22,8 +22,8 @@ func RegisterAdminRoutes(r *gin.Engine, db *gorm.DB, jwtCfg config.JWTConfig, co
 		return
 	}
 
-	healthHandler := handlers.NewHealthHandler(db)
-	r.GET("/healthz", healthHandler.Healthz)
+	// /healthz is registered by the upstream CLIProxyAPI SDK in v6.9.28+
+	_ = handlers.NewHealthHandler(db)
 
 	versionHandler := handlers.NewVersionHandler()
 	r.GET("/v0/version", versionHandler.GetVersion)
