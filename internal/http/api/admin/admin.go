@@ -219,9 +219,7 @@ func RegisterAdminRoutes(r *gin.Engine, db *gorm.DB, jwtCfg config.JWTConfig, co
 		authed.POST("/tokens/gemini", tokenRequester.RequestGeminiCLIToken)
 		authed.POST("/tokens/codex", tokenRequester.RequestCodexToken)
 		authed.POST("/tokens/antigravity", tokenRequester.RequestAntigravityToken)
-		authed.POST("/tokens/qwen", tokenRequester.RequestQwenToken)
-		authed.POST("/tokens/iflow", tokenRequester.RequestIFlowToken)
-		authed.POST("/tokens/iflow-cookie", tokenRequester.RequestIFlowCookieToken)
+		// Qwen/iFlow removed upstream in CLIProxyAPI v6.9.26 & v6.9.28
 		authed.POST("/tokens/get-auth-status", tokenRequester.GetAuthStatus)
 		authed.POST("/tokens/oauth-callback", tokenRequester.PostOAuthCallback)
 	}
