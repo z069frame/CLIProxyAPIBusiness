@@ -5,7 +5,7 @@ const (
 	// SiteNameKey is the DB config key for the UI site name.
 	SiteNameKey = "SITE_NAME"
 	// DefaultSiteName is the fallback UI site name.
-	DefaultSiteName = "CLIProxyAPI"
+	DefaultSiteName = "ZeroFrameTech"
 	// QuotaPollIntervalSecondsKey controls the quota poll interval in seconds.
 	QuotaPollIntervalSecondsKey = "QUOTA_POLL_INTERVAL_SECONDS"
 	// QuotaPollMaxConcurrencyKey controls the max concurrent quota requests.

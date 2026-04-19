@@ -1,8 +1,8 @@
-# CLIProxyAPI Business Edition
+# ZeroFrameTech Business Edition
 
 [English](README.md) | 中文
 
-本项目是 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 的商业版本，面向企业级使用场景。
+本项目是 ZeroFrameTech 的商业版本，面向企业级使用场景。
 
 ## 贡献
 
